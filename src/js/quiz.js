@@ -1,4 +1,4 @@
-var numQuestions = 5;
+var numQuestions = 9;
 var numOptions = 4;
 
 $(document).ready(function() {
