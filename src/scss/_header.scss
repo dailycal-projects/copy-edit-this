@@ -1,4 +1,18 @@
 // Header and h groups
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+  @media screen and (max-width: $width-small) {
+    width: 100%;
+  }
+  @media screen and (max-width: $width-medium) {
+    width: 70%;
+  }
+}
+
 header {
   padding: 20px;
 
